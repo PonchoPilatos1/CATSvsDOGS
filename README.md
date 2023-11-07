@@ -1,3 +1,3 @@
 ![Texto alternativo](/imagenes/proceso.png)
-![Texto alternativo](/imagenes/identificarGato.jpg)
-![Texto alternativo](/imagenes/identificarPerro.jpg)
+![Texto alternativo](/imagenes/IdentificarGato.jpg)
+![Texto alternativo](/imagenes/IdentificarPerro.jpg)
