@@ -1,33 +1,28 @@
 <h3>Datos de entrenamiento</h3>
+Para crear nuestro Dataset, decidimos usar TensorFlow, teniendo ya un set de datos la misma pagina de perros y gatos, con mas de 23,00 imagenes etiquetadas de perros y gatos.
 
+Luego utilizamos google colab, para entrenar modelos de aprendizaje automaticos en la nube, sin la necesidad de instalar nada.
+
+En la imagen, solo mostramos una libreria que nos permite redimencionar todas las imagenes que tenemos, para tener una dimension fija.
 
 ![Texto alternativo](/imagenes/proceso.png)
+
+En la imagen podemos ver Como la pagina reacciona al identificar que hay una figura de gato frente a la camara.
+
 ![Texto alternativo](/imagenes/IdentificarGato.jpg)
+
+En esta imagen tambien podemos apreciar como reacciona la pagina al identificar la forma de un perro frebte a la camara.
+
 ![Texto alternativo](/imagenes/IdentificarPerro.jpg)
 
 
-### Encabezado de nivel 3
-- Recolección de imgenes ( Dataset )
+### Presupuesto $$
+- Recolección de imágenes
+- Creación de Red Neuronal
 - Entrenamiento
-<span style="font-size: 24px;">$12,129 pesos mexicanos</span>
+- Importación del modelo generado en Google Collab
+- Implementación del modelo
+- Diseño
+- Despliegue
 
-Citas y bloques de código
-Puedes crear citas y bloques de código usando el símbolo de mayor que > para citas y tres comillas invertidas (```) para bloques de código.
-> Esto es una cita.
-
-Enlaces
-Puedes agregar enlaces a sitios web o a otras páginas de tu repositorio usando corchetes [Texto del enlace] seguido del URL entre paréntesis ()
-[Visita mi sitio web](http://www.ejemplo.com)
-
-Listas
-Puedes crear listas ordenadas y no ordenadas utilizando números y viñetas respectivamente.
-1. Elemento de lista 1
-2. Elemento de lista 2
-
-- Elemento de lista no ordenada 1
-- Elemento de lista no ordenada 2
-
-Texto en negrita y cursiva
-Puedes escribir texto en negrita utilizando dos asteriscos ** o dos guiones bajos __ al principio y al final de la palabra o frase. Para texto en cursiva, puedes usar un solo asterisco * o un guion bajo _.
-**Texto en negrita**
-*Texto en cursiva*
+> <span style="font-size: 24px;">$22,129 pesos mexicanos</span>
