@@ -18,12 +18,15 @@
 
       <div class="b-example-divider"></div>
 
-      <div class="container mt-5">
+      <div class="container mt-5 contenedor">
         <div class="row">
           <div class="col-12 col-md-4 offset-md-4 text-center">
             <video id="video" playsinline autoplay style="width: 1px;"></video>
-            <canvas id="canvas" width="400" height="400" style="max-width: 100%;"></canvas>
-            <canvas id="otrocanvas" width="150" height="150"></canvas>
+            <canvas id="canvas" width="400" height="400"></canvas>
+            <canvas id="otrocanvas" width="150" height="150" style="display: none"></canvas>
+            <div id="imagen">
+              
+            </div>
             <div id="resultado"></div>            
           </div>
         </div>
@@ -120,15 +123,20 @@
 
         var tensor = tf.tensor4d(arr);
         var resultado = modelo.predict(tensor).dataSync();
+        var html;
 
         var respuesta;
         if (resultado <= .5) {
           respuesta = "Gato";
-          
+          html = `<img class="gif1" src="https://media.tenor.com/5AeBrrSXk34AAAAd/gato.gif" alt="gif de gato">
+                  <img class="gif2" src="https://media.tenor.com/5AeBrrSXk34AAAAd/gato.gif" alt="gif de gato">`
         } else {
           respuesta = "Perro";
+          html = `<img class="gif1" src="https://media.tenor.com/R1KctPuHA8sAAAAd/miedo-perro.gif" alt="gif de perro">
+                  <img class="gif2" src="https://media.tenor.com/R1KctPuHA8sAAAAd/miedo-perro.gif" alt="gif de perro">`
         }
         document.getElementById("resultado").innerHTML = respuesta;
+        document.getElementById("imagen").innerHTML = html;
 
       }
 

@@ -2,6 +2,33 @@
     font-weight: bold;
     font-size: 6rem;
     text-align: center;
-    color: rgba(112, 3, 145, 0.436);
+    color: #223377;
     font-family: 'Comic Neue', cursive;
   }
+
+  body{
+    background-color:#00cccc;
+  }
+  
+  #canvas{
+    max-width: 100%;
+    border: 15px solid; color: orange;
+  }
+
+  .gif1{
+    position: absolute;
+    width: 300px;
+    left: 100px;
+    top: 100px;
+    /* height: 60%; */
+  }
+  .gif2{
+    position: absolute;
+    width: 300px;
+    right: 100px;
+    top: 100px;
+    /* height: 60%; */
+  }
+
+
+  
