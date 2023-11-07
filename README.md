@@ -1,5 +1,6 @@
 <h3>Datos de entrenamiento</h3>
-dsadsadad
+
+
 ![Texto alternativo](/imagenes/proceso.png)
 ![Texto alternativo](/imagenes/IdentificarGato.jpg)
 ![Texto alternativo](/imagenes/IdentificarPerro.jpg)
