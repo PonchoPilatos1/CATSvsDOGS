@@ -14,21 +14,37 @@
     max-width: 100%;
     border: 15px solid; color: orange;
   }
-
   .gif1{
     position: absolute;
-    width: 300px;
+    width: 30px;
     left: 100px;
     top: 100px;
     /* height: 60%; */
   }
   .gif2{
     position: absolute;
-    width: 300px;
+    width: 30px;
     right: 100px;
     top: 100px;
     /* height: 60%; */
   }
+  @media (min-width: 768px) {
+    .gif1{
+      position: absolute;
+      width: 300px;
+      left: 100px;
+      top: 100px;
+      /* height: 60%; */
+    }
+    .gif2{
+      position: absolute;
+      width: 300px;
+      right: 100px;
+      top: 100px;
+      /* height: 60%; */
+    }
+  }
+  
 
 
   
