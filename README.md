@@ -20,7 +20,7 @@ En esta imagen tambien podemos apreciar como reacciona la pagina al identificar 
 - Recolección de imágenes
 - Creación de Red Neuronal
 - Entrenamiento
-- Importación del modelo generado en Google Collab
+- Importación del modelo generado en Google Colab
 - Implementación del modelo
 - Diseño
 - Despliegue
